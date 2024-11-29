@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+  background-image: url('bgleft.jpg') ;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+  }
+
+
+.placeholder-left{
+    position: absolute;
+    width: 100%;
+    min-height: 105%;
+    top: 10;
+    left: 0;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.LOGIN{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 4rem;
+}
+.tagline{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #b9b9b9;
+    letter-spacing: 1px;
+  }
+
+.body{
+  font-family: "Reddit Sans", sans-serif;
+  background-color: white;
+}
+
+.btn{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #bdbdbd;
+}
+
+.btn i{
+    vertical-align: text-bottom;
+    color: #bdbdbd;
+}
+.divider-content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 0.5rem;
+    background-color: #00000000;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.divider{
+    margin: 3rem 0;
+    color: #ffffff;
+}
+
+.signin_button .btn-outline-secondary {
+    color: #ffffff;
+    border-color: #6d6d6d;
+    background-color: #a8a8a869;
+  }
+  
+
+.signin_button .btn-outline-secondary:hover {
+    color: #0059ff;
+    border-color: #ffffff;
+  }
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.form-control::placeholder {
+  background-color:transparent;
+  color: transparent;
+}
+.form-control::placeholder {
+  color: #ffffff;
+}
+.form-control.form-control-lg-fs6 {
+    background-color: transparent;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    border-color: #ffffff;
+}
+.input-group-text {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #cfcfcf;
+  }
+  .form-check-label.text-secondary {
+    background-color: transparent;
+    }
+
+.text-center{
+    color: rgb(134, 134, 134);
+}

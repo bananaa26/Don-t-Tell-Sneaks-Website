@@ -1,0 +1,55 @@
+body {
+    background-image: url('bgplain.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+.container {
+    border-radius: 5px; 
+    margin-top: 7%;
+ }
+
+#logo { 
+margin-top: 5%;
+margin-left: 15%;
+margin-right: 15%;
+  }
+
+.btn-success{
+    color: #e2e2e2;
+    border-color: #696969;
+    background-color: #6e6e6e;
+    text-decoration: none;
+  }
+
+  .btn-success:hover{
+    color: #ffffff;
+    border-color: #050505;
+    background-color: #363636;
+  }
+
+ .custom-paragraph{
+    font-size: .6em;
+    margin-top: 10px;
+    color: #888888;
+  }
+a{
+    text-decoration: none;
+    color: #e2e2e2;
+    }
+a:hover{
+    text-decoration: underline;
+    color: #005fb8;
+}
+.Registration{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.text-center {
+    font-size: 13px;
+}
